@@ -8,6 +8,6 @@ sudo apt install ansible -y
 sudo apt install git -y 
 mkdir Ansible && cd Ansible
 pwd
-git clone https://github.com/PARPSY1122/ANSIBLE.git   #change to your own repo
+git clone https://github.com/PARPSY1122/ansible-jenkins.git   #change to your own repo
 cd ANSIBLE
 ansible-playbook -i localhost jenkins.yaml
